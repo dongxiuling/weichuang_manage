@@ -28,7 +28,9 @@ function App(props){
 
         
         <CHeader ></CHeader>       
-         <div className="bodyer"> {props.children}</div>
+         <div className="bodyer"> 
+
+         {props.children}</div>
      
         <CFooter ></CFooter>
         

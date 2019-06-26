@@ -6,7 +6,7 @@ const menuList = [
     },
    
     {
-        title:"学生管理",
+        title:"用户管理",
         path:'/student',
         icon:'appstore',
         children:[
@@ -25,19 +25,19 @@ const menuList = [
         ]
     },
     {
-        title:"教师管理",
-        path:'/teacher',
+        title:"文章管理",
+        path:'/article',
         icon:'appstore',
-        children:[
-            {
-                title:"教师列表",
-                path:'/teacher/list'
-            },
-            {
-                title:"教师成绩",
-                path:'/teacher/list2'
-            }
-        ]
+        // children:[
+        //     {
+        //         title:"教师列表",
+        //         path:'/teacher/list'
+        //     },
+        //     {
+        //         title:"教师成绩",
+        //         path:'/teacher/list2'
+        //     }
+        // ]
     }
 ]
 
