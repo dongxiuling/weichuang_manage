@@ -32,7 +32,7 @@ render(){
     return (
         <div className="main">
             <div className="logobox">
-                <img src="/imgs/logo.png"/>
+                <img src=""/>
             </div>
             <Menu className="menu" theme="dark" mode="inline" defaultOpenKeys={['/admin/student']}>
                 {this.state.list}
